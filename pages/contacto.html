@@ -1,0 +1,119 @@
+<!--para cargar el inicio de una página web escribo: ! y la 
+tecla tab-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--el head es la etiqueta de configuraciones-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armando Casas Arquitectura</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/c9cb779fd2.js" crossorigin="anonymous"></script>
+    <!--Para completar el href pongo después del = "./"
+    Con el punto y la barra empieza a buscar en los distintos directorios-->
+</head>
+<!--para grabar la pagina html: ctrl + s -->
+
+<body>
+    <div class="fondo">
+        <!--    el body es la etiqueta de contenido que ve el user-->
+        <!-- todas las paginas tienen que tener header, main y footer-->
+        <!--las paginas van a tener el mismo header y el mismo footer pero diferente main-->
+
+        <header class="header">
+            <div class="contenedorLogo">
+                <a href="#"><img src="../assets/img/arquitectura.png" alt="Logo"></a>
+            </div>
+            <!--En esta parte va un logo. Para poner el logo uso la etiqueta div-->
+            <nav class="navegacion">
+                <ul>
+                    <!--ul es una lista desordenada y por convension dentro de nav va este tipo de listas-->
+                    <li class="listaItem"><a class="linkNav" href="../index.html">Inicio </a> </li>
+                    <!--la pagina donde estoy parada se indica con #-->
+                    <li class="listaItem"><a class="linkNav" href="./pages/galeria.html">Galeria </a> </li>
+                    <li class="listaItem"><a class="linkNav" href="./pages/mas_info.html">Mas Info </a> </li>
+                    <li class="listaItem"><a class="linkNav" href="./pages/nosotros.html">Nosotros </a> </li>
+                    <li class="listaItem"><a class="linkNav" href="#">Contacto </a> </li>
+                    <!--lista item. Como necesito 5, hago; li*5 y la tecla tab-->
+                    <!--para escribir simultaneamente en las 5 etiquetas, me paro en cada una de ellas con la tecla alt apretada -->
+                    <!--los enlaces relativos son los que están dentro de mi página. Si quiero desde mi página acceder a google, twitter, instagram, o incluso a otra página, entonces tengo que usar un enlace ABSOLUTO mediante un atributo (target = _blank) para que se abra en otra página (es de uso OBLIGATORIO) que es como el que sigue:-->
+                    <!-- <li>
+                    <a href="https://www.instagram.com" target=blank>Instagram </a>
+                </li>-->
+                    <hr>
+                    <br>
+                    <br>
+                </ul>
+            </nav>
+            <section>
+                <div>
+                    <h1>Estudio de Arquitectura Armando Casas</h1>
+                    <p>Trabajamos en estrecha colaboración con el cliente para entender sus necesidades y traducirlas en
+                        diseños únicos y personalizados.</p>
+                </div>
+
+
+    </div>
+    </section>
+    </header>
+    <main>
+        <main class="main ">
+            <br>
+            <br>
+
+            <form>
+                <div>
+                    <input type="text" placeholder="Ingrese su nombre" required>
+                </div>
+                <div>
+                    <input type="email" placeholder="Ingrese su mail" required>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10">placeholder = "Ingrese un comentario</textarea>
+                    <div>
+
+                    </div>
+                    <input type="submit">
+                    <input type="reset" value="Limpiar">
+                </div>
+            </form>
+
+            <hr>
+            <ol>
+                <hr>
+                <li>Dejanos tu número de teléfono</li>
+                <li>Te llamaremos a la brevedad</li>
+                <li>Tenemos para vos propuestas irresistebles</li>
+                <li>Te invitamos a ver nuestros proyectos</li>
+
+            </ol>
+            <hr>
+        </main>
+
+
+        <footer class="footer">
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3581255516033!2d-58.378515799999995!3d-34.5951046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab64594572d%3A0xed678191126d9f54!2sAvenida%20Santa%20Fe%20%26%20Esmeralda%2C%20C1061%20CABA!5e0!3m2!1sen!2sar!4v1678763671328!5m2!1sen!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="redesSocales">
+                <a href="https://www.instagram.com" target=blank>Instagram </a>
+            </div>
+
+            <p>Todos los derechos reservados. Daniela Santágata</p>
+        </footer>
+
+
+        <!--h1 es el título principal de la página. Luego puedo tener subtítulos hasta el nivel 6-->
+        <!--El atributo width no se usa en html. Luego se modifica el tamaño con CSS. Aquí fue una excepción-->
+        <hr>
+
+
+</body>
+
+</html>

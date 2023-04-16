@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Work+Sans:ital,wght@0,700;1,200;1,400&display=swap');
+
+/*Inicialmente borro los espaciados y márgenes propios de html, para eso tengo que hacer:*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(to left top, #4f4c4e, #6c6a6c, #8a898a, #aaa9aa, #cbcbcb, #cdced1, #cfd1d7, #cfd4dd, #aabac7, #83a2af, #5c8b92, #397471);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+
+.header {
+    height: 60vh;
+    text-align: center;
+    background-image: linear-gradient(to left top, #4f4c4e, #6c6a6c, #8a898a, #aaa9aa, #cbcbcb, #cdced1, #cfd1d7, #cfd4dd, #aabac7, #83a2af, #5c8b92, #397471);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 30;
+}
+
+.contenedorLogo {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+
+}
+
+.logo {
+    width: 200%;
+    display: inline-block;
+
+}
+
+.navegacion {
+    display: inline-block;
+    width: 46%;
+    text-align: right;
+}
+
+
+.listaItem {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    text-align: right;
+}
+
+.linkNav {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+.colorFondo {
+    width: 70%;
+    text-align: center;
+    padding-left: 400px;
+}
+
+.fondo {
+    /*Imagen de fondo para el main*/
+    background-image: url(../assets/img/fantasy-archi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main {
+    background-image: url(../assets/img/fantasy-archi.jpg);
+    color: black;
+}
+
+.footer {
+    background-image: linear-gradient(to left top, #4f4c4e, #6c6a6c, #8a898a, #aaa9aa, #cbcbcb, #cdced1, #cfd1d7, #cfd4dd, #aabac7, #83a2af, #5c8b92, #397471);
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(43, 34, 34);
+
+    text-align: right;
+}
+
+.mapa {
+
+    text-align: left;
+
+}
+
+
+
+
+/*.centrado {
+    text-align: center;
+}
+
+.fuenteGrande {
+    font-size: 30px;
+}
+
+.fuenteMediana {
+    font-size: 22px;
+}
+
+/*Esto es un comntario de css
+Estoy armando un selector de etiqueta (h1)*/
+/*h1 {
+    /*propiedad (color): valor (gray);*/
+/*color: darkslategrey;
+}*/
+
+/*para que se produzcan los cambios hay que vincular esta hoja de css con el html
+Para hacer el linkeado lo tengo que hacer en el head del html, donde están el resto de las configuraciones y se hace con la etiqueta "link"*/
+/*El anterior es un selector de etiqueta, luego está el selector de clase que es más importante que el selector de etiqueta. Para conocimientos avanzados está el selector de ID, pero que no se va a usar*/
+/*Los selectores de clase se llaman con un punto y el nombre que le di a esa clase en el index del html, es decir, si yoaarmé una clase que se llama colorFondo, para llamarla en la página estilos de css lo hago de esta forma: .colorFondo*/
+
+/*.colorFondo {
+    background-color: gray;
+}*/
